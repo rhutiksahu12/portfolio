@@ -21,10 +21,10 @@ const Skills = () => {
           <span className="text-[#7aa2f7]">const</span> skills = [<br />
           {skills.map((skill, index) => {
             return (
-              <>
-                <span key={index} className="ml-6 text-[#9ece6a]">{skill},</span>
+              <React.Fragment key={index}>
+                <span  className="ml-6 text-[#9ece6a]">{skill},</span>
                 <br />
-              </>
+              </React.Fragment>
             )
           })}
           {/* <span className="ml-6 text-[#9ece6a]">"React",</span>

@@ -18,7 +18,7 @@ const Projects = () => {
         <div>
           <p className="text-[#9ece6a]">$</p>
           <p className="ml-4 text-[#c0caf5]">
-            git clone <span className="text-[#7aa2f7]">https://github.com/username/portfolio-site</span>
+            git clone <span className="text-[#7aa2f7]">https://github.com/rhutiksahu12/portfolio</span>
           </p>
           <p className="ml-4 text-[#c0caf5]">
             My personal portfolio with a terminal-inspired UI, built using React, Tailwind, and Vite.
