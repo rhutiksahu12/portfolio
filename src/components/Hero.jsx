@@ -1,5 +1,6 @@
 // src/components/Hero.jsx
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { FaGithub, FaLinkedin } from "react-icons/fa"; // Import icons
 
 export default function Hero() {
   const [text] = useTypewriter({
@@ -25,6 +26,28 @@ export default function Hero() {
           <Cursor />
         </span>
       </p>
+      
+      {/* Social Media Icons */}
+      <div className="flex space-x-4">
+        <a 
+          href="https://github.com/rhutiksahu12" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-[#c0caf5] hover:text-[#7aa2f7] transition-colors duration-300"
+          aria-label="GitHub Profile"
+        >
+          <FaGithub size={24} />
+        </a>
+        <a 
+          href="https://www.linkedin.com/in/rhutiksahu/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-[#c0caf5] hover:text-[#7aa2f7] transition-colors duration-300"
+          aria-label="LinkedIn Profile"
+        >
+          <FaLinkedin size={24} />
+        </a>
+      </div>
     </section>
   );
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -8,17 +9,21 @@ const Contact = () => {
         <p className="text-[#c0caf5]">
           <span className="text-[#7aa2f7]">const</span> contact = &#123;
         </p>
-        <p className="ml-4 text-[#c0caf5]">
-          email: <span className="text-[#9ece6a]">"rhutiksahu@gmail.com"</span>,
+        <p className="ml-4 text-[#c0caf5] flex items-center">
+          <FaEnvelope className="mr-2 text-[#7aa2f7]" />
+          email: <a href="mailto:rhutiksahu@gmail.com" className="text-[#9ece6a] ml-2 hover:underline">"rhutiksahu@gmail.com"</a>,
         </p>
-        <p className="ml-4 text-[#c0caf5]">
-          github: <span className="text-[#9ece6a]">"https://github.com/rhutiksahu12"</span>,
+        <p className="ml-4 text-[#c0caf5] flex items-center">
+          <FaGithub className="mr-2 text-[#7aa2f7]" />
+          github: <a href="https://github.com/rhutiksahu12" target="_blank" rel="noopener noreferrer" className="text-[#9ece6a] ml-2 hover:underline">"https://github.com/rhutiksahu12"</a>,
         </p>
-        <p className="ml-4 text-[#c0caf5]">
-          linkedin: <span className="text-[#9ece6a]">"https://www.linkedin.com/in/rhutiksahu/"</span>,
+        <p className="ml-4 text-[#c0caf5] flex items-center">
+          <FaLinkedin className="mr-2 text-[#7aa2f7]" />
+          linkedin: <a href="https://www.linkedin.com/in/rhutiksahu/" target="_blank" rel="noopener noreferrer" className="text-[#9ece6a] ml-2 hover:underline">"https://www.linkedin.com/in/rhutiksahu/"</a>,
         </p>
-        <p className="ml-4 text-[#c0caf5]">
-          location: <span className="text-[#9ece6a]">"Hyderabad, India"</span>
+        <p className="ml-4 text-[#c0caf5] flex items-center">
+          <FaMapMarkerAlt className="mr-2 text-[#7aa2f7]" />
+          location: <span className="text-[#9ece6a] ml-2">"Hyderabad, India"</span>
         </p>
         <p className="text-[#c0caf5]">&#125;</p>
       </div>
