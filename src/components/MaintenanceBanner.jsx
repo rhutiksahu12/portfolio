@@ -8,8 +8,8 @@ const MaintenanceBanner = () => {
     }
 
     return (
-        <div className="bg-yellow-500 text-black text-center text-sm sticky top-0 z-40 flex items-center justify-between">
-            <span className="flex-grow text-center"> {/* Added span to help center text when close button is present */}
+        <div className="bg-yellow-500 text-black text-center text-sm sticky top-0 z-40 flex items-center justify-between px-2 py-1 overflow-hidden">
+            <span className="flex-grow text-center break-words"> 
                 🚧 This website is currently under maintenance. Some features may not be fully functional. 🚧
             </span>
             <button

@@ -50,7 +50,7 @@ export default function Experience() {
                                 </p>
                                 <p className="ml-4 text-[#c0caf5]">
                                     description:{" "}
-                                    <span className="text-[#9ece6a]">
+                                    <span className="text-[#9ece6a] break-words">
                                         {item.description}
                                     </span>,
                                 </p>

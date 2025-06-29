@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"; // Import icons
 export default function Hero() {
   const [text] = useTypewriter({
     words: [
+      "Freelancer",
       "Full Stack Developer",
       "React + Node.js Specialist",
     ],
