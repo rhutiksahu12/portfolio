@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa
 
 const Contact = () => {
   return (
-    <section className="space-y-4 mb-20">
+    <section className="space-y-4 mb-16">
       <p className="text-green-400 text-2xl">// contact</p>
       <div className="bg-[#1a1b26] border border-[#414868] p-4 rounded-md">
         <p className="text-[#c0caf5]">

@@ -7,7 +7,7 @@ const experience = [
         company: "Zithara Technologies",
         period: "Dec 2023 – March 2024",
         description: "Successfully migrated php based project to nodejs and react tech stack. Conceptualized, designed and developed a website builder application using react, tailwindcss, tanstack query and adonis JS",
-        tech: ["React", "Node.js", "TailwindCSS","Tanstack Query", "PostgreSQL"]
+        tech: ["React", "Node.js", "TailwindCSS", "Tanstack Query", "PostgreSQL"]
     },
     {
         role: "Frontend Developer ",
@@ -55,16 +55,13 @@ export default function Experience() {
                                     </span>,
                                 </p>
                                 <p className="ml-4 text-[#c0caf5]">
-                                    tech: <span className="text-[#9ece6a]">{item.tech}</span>
+                                    tech: <span className="text-[#9ece6a]">{item.tech.join(', ')}</span>
                                 </p>
                                 <p className="text-[#c0caf5]">&#125;,</p>
                             </div>
                         )
                     })}
-
-                  
                 </div>
-
                 <p className="text-[#c0caf5]">]</p>
             </div>
         </section>
